@@ -1,1 +1,44 @@
-font-family: 'Roboto', sans-serif;
+table.redTable {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #EBEBEB;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 12px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F3F3F5;
+}
+table.redTable thead {
+  background: #66A2DF;
+}
+table.redTable thead th {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.redTable tfoot {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #66A2DF;
+}
+table.redTable tfoot td {
+  font-size: 10px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
