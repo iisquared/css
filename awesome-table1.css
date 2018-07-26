@@ -1,7 +1,44 @@
-/*!
-Pure v1.0.0
-Copyright 2013 Yahoo!
-Licensed under the BSD License.
-https://github.com/yahoo/pure/blob/master/LICENSE.md
-*/
-.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em}.pure-table td:first-child,.pure-table th:first-child{border-left-width:0}.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td,.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+table.redTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #EBEBEB;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 12px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F3F3F5;
+}
+table.redTable thead {
+  background: #66A2DF;
+}
+table.redTable thead th {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.redTable tfoot {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #66A2DF;
+}
+table.redTable tfoot td {
+  font-size: 10px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
